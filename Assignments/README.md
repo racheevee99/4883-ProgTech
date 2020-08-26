@@ -1,4 +1,5 @@
 ## Assignments
 
-| Number | Folder       | Description                               |
+|    #   | Folder Link  | Assignment Description                    |
 | :----: | ------------ | ----------------------------------------- |
+|        |              |                                           |
