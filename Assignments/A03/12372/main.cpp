@@ -12,3 +12,23 @@
 //   dimensions of a given suitcase.
 //
 /////////////////////////////////////////////////////////////////////////////////
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  int T, L, W, H;
+  string s;
+  cin >> T;
+  for(int i = 0; i < T; i++)
+  {
+    cin >> L >> W >> H;
+    if(L > 20 || W > 20 || H > 20)
+      s = "bad";
+    else
+      s = "good";
+    cout << "Case " << i+1 << ": " << s << endl; 
+  }
+  return 0;
+}
