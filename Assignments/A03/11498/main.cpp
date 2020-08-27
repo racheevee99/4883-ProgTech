@@ -8,8 +8,8 @@
 // Semester:         Fall 2020
 //
 // Description:
-//       This program determines the quadrant that a certain point is in a 
-//    graph based on a given center point.
+//       This program determines the quadrant on graph that a certain point 
+//  is in based on a given center point.
 //
 /////////////////////////////////////////////////////////////////////////////////
 
