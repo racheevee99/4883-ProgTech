@@ -3,12 +3,12 @@
 // Author:           Rachel Vetter
 // Email:            racheevee99@gmail.com
 // Label:            11172
-// Title:            Relational Operators
+// Title:            Cost Cutting
 // Course:           CMPS 4883
 // Semester:         Fall 2020
 //
 // Description:
-//       Compares 2 numbers in a file and displays their relationship.
+//       Finds the middle value between 3 numbers.
 //
 /////////////////////////////////////////////////////////////////////////////////
 #include <iostream>
