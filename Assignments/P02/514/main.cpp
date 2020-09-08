@@ -22,9 +22,9 @@ using namespace std;
 int main() 
 {
   int numCars, car;
-  int a, b;
-  stack <int> train; //Stack of intitial configuration
-  vector <int> A, B; //holds end configuration
+  int a, b; //indexes for A and B
+  stack <int> train; //Stack of cars
+  vector <int> A, B; //A: initial, B: end
   bool done;
 
   cin >> numCars;
