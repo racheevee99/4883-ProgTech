@@ -17,3 +17,12 @@ Write a program that changes an infix expression to a postfix expression accordi
 ### Instructions
 
 - This project was compiled using C++ 11 
+
+### Sources
+
+- Stacks:
+    - http://www.cplusplus.com/reference/stack/stack/
+- Switch statements:
+    - https://www.geeksforgeeks.org/switch-statement-cc/
+
+I used these sources to refresh me on syntax.
