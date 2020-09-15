@@ -19,7 +19,7 @@
 - Insertion is performed recursively.
 - Simple, but clear and easy to use.
 
-''' cpp
+``` cpp
 
 // C++ program to demonstrate insertion 
 // in a BST recursively. 
@@ -118,7 +118,7 @@ int main()
   
 // This code is contributed by pkthapa
 
-'''
+```
 
 ### Sources
 
