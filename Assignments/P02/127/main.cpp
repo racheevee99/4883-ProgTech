@@ -314,3 +314,93 @@ void displayResults(Pile a[52], int s[52])
 	}
 	cout << "\n";
 }
+
+
+
+
+
+
+while(left1 && left3)
+    {
+      done = false;
+      left1 = left3 = true;
+      cout << "in play loop\n";
+      
+      for (int i = 1; i < d.size(); i++)
+      {
+        cout << "in for loop\n";
+        //Check (and swap) 3 to the left
+        while(i > 2)
+        {
+          cout << i << d[i].top() <<  " - in left3 loop\n";
+          if(d[i].top()[0] == d[i - 3].top()[0])
+          {
+            cout << "if1 left3\n";
+            d[i - 3].push(d[i].top());
+            d[i].pop();
+            left3 = true;
+          }
+          else if(d[i].top()[1] == d[i - 3].top()[1])
+          {
+            cout << "if2 left3\n";
+            d[i - 3].push(d[i].top());
+            d[i].pop();
+            left3 = true;
+          }
+          else 
+          {
+            left3 = false;
+          }
+
+          //Decrement i
+          if(left3 && i > 3)
+          {
+            i-=3;
+          }
+
+          //Erase gap between piles
+          if(d[i].empty())
+          {
+            cout << i << " - erase left3\n";
+            d.erase(d.begin()+i);
+          }
+        }
+
+        //Check (and swap) 1 to the left
+        while(i > 0)
+        {
+          cout << i << d[i].top() <<  " - in left1 loop\n";
+          if(d[i].top()[0] == d[i - 1].top()[0])
+          {
+            cout << "if1 left1\n";
+            d[i - 1].push(d[i].top());
+            d[i].pop();
+            left1 = true;
+          }
+          else if(d[i].top()[1] == d[i - 1].top()[1])
+          {
+            cout << "if2 left1\n";
+            d[i - 1].push(d[i].top());
+            d[i].pop();
+            left1 = true;
+          }
+          else 
+          {
+            left1 = false;
+          }
+
+          //Decrement i
+          if(left1 && i > 1)
+          {
+            i--;
+          }
+
+          //Erase gap between piles
+          if(d[i].empty())
+          {
+            cout << i << " - erase left1\n";
+            d.erase(d.begin()+i);
+          }
+        }
+      }
+    }
