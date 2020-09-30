@@ -25,4 +25,4 @@ Trees are fundamental in many branches of computer science (Pun definitely inten
  - Unordered maps
     - http://www.cplusplus.com/reference/unordered_map/unordered_map/
 
-I used this sources to refresh me on syntax and functionality.
+I used these sources to refresh me on syntax and functionality.
