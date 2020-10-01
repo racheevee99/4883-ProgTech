@@ -24,3 +24,8 @@ In Chinese, we can call it Beiju. Your task is to find the Beiju text.
 - This project was compiled using C++ 11 
 
 ### Sources
+
+- Lists:
+    - http://www.cplusplus.com/reference/list/list/
+
+I used this source for syntax and to learn about this container and how it works. I initially tried using a vector and string to hold the text and rearrange it but both implementations exceeded the time limit, so I had to find a better container. 
